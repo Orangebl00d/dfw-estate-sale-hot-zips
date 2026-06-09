@@ -1,0 +1,1031 @@
+{
+  "title": "DFW Estate Sale Plan: 2026-06-13 to 2026-06-14",
+  "generated_at": "2026-06-09T10:04-05:00",
+  "date_range": {
+    "start": "2026-06-13",
+    "end": "2026-06-14"
+  },
+  "source_status": [
+    {
+      "name": "EstateSales.NET",
+      "url": "https://www.estatesales.net/TX/Dallas-Fort-Worth-Arlington",
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "EstateSales.org",
+      "url": "https://estatesales.org/estate-sales/tx/dallas",
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "EstateSales.org",
+      "url": "https://estatesales.org/estate-sales/tx/fort-worth",
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "EstateSales.org",
+      "url": "https://estatesales.org/estate-sales/tx/plano",
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "EstateSales.org",
+      "url": "https://estatesales.org/estate-sales/tx/southlake",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "manual_check_urls": [
+    {
+      "label": "EstateSale.com Dallas",
+      "url": "https://www.estatesale.com/cities/view/12/Estate-Sales-Dallas-.html"
+    },
+    {
+      "label": "EstateSale.com Fort Worth",
+      "url": "https://www.estatesale.com/cities/view/20/Estate-Sales-Fort-Worth-TX.html"
+    },
+    {
+      "label": "HiBid Dallas",
+      "url": "https://dallas.hibid.com/auctions"
+    },
+    {
+      "label": "AuctionNinja Dallas",
+      "url": "https://www.auctionninja.com/tx/dallas"
+    },
+    {
+      "label": "MaxSold Dallas",
+      "url": "https://maxsold.com/usa/texas/dallas"
+    }
+  ],
+  "sales": [
+    {
+      "source": "EstateSales.org",
+      "title": "PRETTY IN PINK UPSCALE ELEGANCE MODERN FURNITURE ESTATE SALE BY ALAMO AZTEK ESTATE SALES DFW",
+      "url": "https://estatesales.org/estate-sales/tx/dallas/75220/pretty-in-pink-upscale-elegance-2441525",
+      "company": "Alamo Aztek Estate Sales DFW",
+      "street": "hidden",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75220",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "PRETTY IN PINK UPSCALE ELEGANCE MODERN FURNITURE ESTATE SALE THURSDAY FRIDAY SATURDAY JUNE 11TH-JUNE 13TH 2026 DALLAS, TX YOU WANTED THE BEST, YOU GOT THE BEST, THE HOTTEST MODERN UPSCALE SALE THIS SIDE OF DALLAS COUNTY FEATURING AN ABSOLUTE EXQUISITE ASSORTMENT OF PINK, YOU NAME IT, FEATURING FRENCH PRINTS, KITCHEN SMALL APPLIANCES, KITCHEN GADGETS AND GIZMOS, PINK WOMENS FASHION APPAREL, XMAS AND HOLIDAY, WOMENS FASHION PURSES, WOMENS BIKES, KIDS MUSTANG, JACK SKELLINGTON HALLOWEEN, STUFFIES, FRENCH GUILDED MIRRORS, NINEBOT SCOOTERS, FRENCH PROVINCIAL TUFTED ARMCHAIRS VELVET, ITALIAN MARBLE OCCASIONAL TABLE, Z GALLERIES SECTIONAL SOFA, PINK BARWARE, DEPRESSION GLASS, Z GALLERIES VELVET BARSTOOLS, NIEMAN MARCUS MASSOUD LILLIBET CHAIR, ANTHROPOLOGIE LEFT OF ME WALL ART, VINTAGE BRASS CORNER SHELVES, ANTHROPOLOGIE HOME DECOR, FENTON GLASS, NEOCLASSICAL FIGURINES, AMETYST CATHEDRAL GEODE, ATLANTIS CRYSTAL, ANTHROPOLOGIE PAINTED CABINET, CHILDRENS PAINTED TRUNK, CUSTOM PAINTED VANITY, PINK FRENCH PROVINCIAL LONG DRESSER, ANTIQUE LOUIS XIV UPHOLSTERED ARMCHAIR, MILO BAUGHMAN BRASS ARCHED ETAGERE, ANTHROPOLOGIE KING SIZE TUFTED BED, CUSTOM CAT TREE, WEST ELM CURVED TERRACE NIGHTSTANDS, ANTHROPOLOGIE TUFTED BENCH, EVOLUR AURORA HUTCH, PET KENNELS, LINENS AND HOUSEWARES, TOOL BOXES, NEOCLASSICAL ART, PELOTON, ANNISTYN LONG DRESSER, WORKOUT RACK, KIMMY LUXE PINK PRINCESS SOFA, NEBRASKA FURNITURE MART MEDIA CONSOLE, MAITLAND SMITH MEDIA CABINETS, PORTABLE HOT TUB, OUTDOOR AND PATIO STATUARY AND MUCH MORE... PRELIMINARY INFO AND PHOTOS POSTED NOW WITH UPDATES TO COME AFTERNOON OF WEDNESDAY JUNE 10TH 2026 WE'D LOVE TO HELP WITH YOUR ESTATE/MOVING SALE, GIVE US A CALL FOR YOUR FREE ESTATE EVALUATION, YOU'RE NOT ALONE AND THIS ISN'T HOPELESS MULTIPLE OFFICES TO SERVE YOU WE SPECIALIZE IN HOARDER'S HOUSES, PRESTIGIOUS ESTATES & CHALLENGING SITUATIONS BE SURE TO LIKE AND FOLLOW US ON FACEBOOK ALAMO AZTEK ESTATE SALES DFW, TIKTOK @ALAMOAZTEKESTATES OR SUBSCRIBE TO OUR WEBSITE ALAMO AZTEK ESTATE SALES DFW 972-765-8367 DALLAS OFFICE GARLAND/RICHARDSON OFFICE 254-459-8658 ARLINGTON OFFICE WWW.ALAMOESTATESALES.COM DALLAS OFFICE GARLAND/RICHARDSON OFFICE ARLINGTON OFFICE SERVING DFW METROPLEX, CITY OF DALLAS & DALLAS COUNTY, CITY OF FT WORTH, CITY OF ARLINGTON & TARRANT COUNTY, HEB MID CITIES, SOUTH AND EAST DALLAS COUNTY CITIES OF GARLAND, RICHARDSON, MESQUITE AND SUNNYVALE AND EVERYWHERE IN BETWEEN",
+      "photo_count": 120,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 100,
+      "keywords": [
+        "art",
+        "decor",
+        "furniture",
+        "vintage",
+        "tools",
+        "upscale"
+      ],
+      "zip_priority": "B",
+      "zip_rank": 11,
+      "hot_area": "Northwest Dallas / Bluffview adjacent"
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "~Incredible Plano Estate Sale! More info coming soon!",
+      "url": "https://estatesales.org/estate-sales/tx/plano/75093/incredible-plano-estate-sale-more-2438298",
+      "company": "DFW ESTATE LIQUIDATORS",
+      "street": "5125 Sunningdale Ct",
+      "city": "Plano",
+      "state": "TX",
+      "zip": "75093",
+      "start": "2026-06-12T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Please Read: Property under 24/7 Video Surveillance with active alarm monitoring. Valuables removed from premises daily. No pre sales. Visa, MasterCard & Discover accepted. Carry-out assistance available. Security on-site during sale hours. Armed police will be patrolling the perimeter of this property upon the release of the address. / As always, our sales are first come first serve. No sign-up sheet & no place holders. The line will form at the front door which will open at 9am sharp. You are more than welcome to arrive early. Please do not block driveways or mailboxes. Security will be watching the street. We can't wait to see everyone! ~ This is one of multiple estate sales being held this weekend simultaneously! (Additional locations will be listed) Be sure to check out all of this week's estate sales as well as our *online only* Weatherford Auction Gallery **Fine Estate Auction** closing this Friday! We are pleased to announce another incredible Estate Sale by DFW Estate Liquidators! ~Please look forward to: Don't forget to check out our current *Online Only* Estate Auctions! Register, View Catalog & Bid @ http://www.weatherfordauctiong... For additional sales & online auctions go to http://www.dfwestateliquidator... ~WE ARE HIRING! FULL & PART TIME POSITIONS OPEN. (Interested persons should contact us via email @ dfwestateliquidators@gmail.com or text 682-239-1746.",
+      "photo_count": 1,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 78,
+      "keywords": [
+        "art",
+        "fine"
+      ],
+      "zip_priority": "B",
+      "zip_rank": 13,
+      "hot_area": "West Plano / Willow Bend"
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Fun finds in Frisco!",
+      "url": "https://estatesales.org/estate-sales/tx/frisco/75033/fun-finds-in-frisco-2444611",
+      "company": "Chickadee Lane Estate and Moving Sales, LLC",
+      "street": "hidden",
+      "city": "Frisco",
+      "state": "TX",
+      "zip": "75033",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Come and see all the goodies in this Frisco home! Lots of great furniture, home decor pieces, vintage pyrex, a large jadite mixing bowl, books, kitchenware, fridge/washer/dryer, tools, clothing, suitcases, an adjustable king size bed frame...and LOTS of cute vintage Garfield items!",
+      "photo_count": 43,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 73,
+      "keywords": [
+        "decor",
+        "furniture",
+        "vintage",
+        "tools",
+        "books"
+      ],
+      "zip_priority": "C",
+      "zip_rank": 25,
+      "hot_area": "Northwest Frisco"
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Argyles World Collectors dream",
+      "url": "https://www.estatesales.net/TX/Argyle/76226/4951929",
+      "company": "Private Listing",
+      "street": "",
+      "city": "Argyle",
+      "state": "TX",
+      "zip": "76226",
+      "start": "2026-06-11T08:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 70,
+      "keywords": [],
+      "zip_priority": "B",
+      "zip_rank": 17,
+      "hot_area": "Argyle / Bartonville / Lantana"
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Disco Days in Dallas",
+      "url": "https://estatesales.org/estate-sales/tx/dallas/75248/disco-days-in-dallas-2444615",
+      "company": "Chickadee Lane Estate and Moving Sales, LLC",
+      "street": "hidden",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75248",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Step inside this wonderful Dallas time capsule home! The train stopped here in the 1970s and never left! Come experience the groovy vibe of all the Mid-Century Modern furnishings, beautiful artwork, Asian decor, LOTS of dishware, Fitz & Floyd china, Staffordshire dishes, vintage barware, silverplate galore, stamped tin mirrors, vintage toys, vintage Pyrex, multiple beautiful silverware patterns in gold-tone and silverplate, sculptures, an amazing nutcracker collection, LOTS of books, vintage stereo system, vintage lamps and pendant lamps, garage finds, washer/dryer/fridge and SO much more!",
+      "photo_count": 103,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 68,
+      "keywords": [
+        "art",
+        "decor",
+        "furnishings",
+        "vintage",
+        "silver",
+        "asian",
+        "gold",
+        "books"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "MY ROCK N ROLL FANTASY MY ROCK N ROLL DREAM GAMERS PARADISE ESTATE SALE BY ALAMO AZTEK ESTATE SALES DFW",
+      "url": "https://estatesales.org/estate-sales/tx/dallas/75248/my-rock-n-roll-fantasy-2441414",
+      "company": "Alamo Aztek Estate Sales DFW",
+      "street": "hidden",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75248",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "MY ROCK N ROLL FANTASY & GAMER'S PARADISE VINTAGE ESTATE SALE THURSDAY FRIDAY SATURDAY JUNE 11TH-JUNE 13TH 2026 DALLAS, TX YOU WANTED THE BEST, YOU GOT THE BEST, THE HOTTEST ROCK N ROLL, FURNITURE AND COLLECTIBLES SALE THIS SIDE OF DALLAS COUNTY FEATURING AN ABSOLUTE EXQUISITE ASSORTMENT OF COLLECTIBLES AND ART LET'S GET STARTED WITH A 1995 VOLKSWAGEN VAN THE ULTIMATE PIMP MOBILE, 2000 CHEVY PRIZM. FEATURING PSYCHO MOVIE POSTER, MASSIVE BOOK AND MULTIMEDIA COLLECTION INCLUDING CDS, DVDS, AND BLUERAYS, BOOKSHELVES, VINTAGE PIN UPS, PENTHOUSE AND PLAYBOY COLLECTION, SCI FI AND HORROR 8X10 GLOSSY PICS, VINTAGE SEXPLOITATION MOVIE POSTERS, INXS KICK RECORD STORE PROMO, SPIDERMAN AND SUPERMAN COLLECTIBLES, VINTAGE SLIPPER CHAIR, WATERSHIP DOWN MOVIE POSTER, ANTIQUE SLAG FLOOR LAMP, MENS APPAREL, SUNSET BLVD MOVIE POSTER, MARVEL FRAMED COMICS, VINTAGE STEREO COMPONENTS, RECORDS AND LPS, ELECTRONICS, FRAMED CLASSIC ALBUM COVERS FROM THE ROLLING STONES AND THE CARS, WORLD NAKED BIKE RIDE ART, VINTAGE MARDI GRAS POSTERS, RETRO EROTIC ART, VINTAGE JAPANESE LAMP, MARILYN MONROE ART, SAMSUNG SMART TVS, THOMAS THE TRAIN COLLECTIBLES, PIRATES OF THE CARRIBEAN, DR SEUSS, LEGO, PUZZLES, LED ZEPPELIN FRAMED ART, THE DOORS ART, VINTAGE WATERFALL DESK, MENS OUTERWEAR, DALLAS COWBOYS ART AND COLLECTIBLES, RETRO PUB TABLE, SOFIA TRADITIONAL SOFA, VIRGIN WOOL AREA RUGS, THE OUTLAW JANE RUSSELL COFFEE TABLE, LG SMART TV, GLASS TOP DESK, DAY OF THE DEAD BOOKENDS, VINTAGE BOARD GAMES, VINTAGE GERMAN NEW WAVE POSTERS, SPINAL TAP TOUR PROMO, VINTAGE JAPANESE TV LIGHT, FRAMED FARRAH FAWCETT POSTER, FRAMED KISS 1976 STARS AND STRIPES, TALKING HEADS FRAMED PRINT, FELLOWS COMMERCIAL PAPER SHREDDER, ELVIS PRESLEY FRAMED PICS, BRUCE SPRINGSTEEN FRAMED PICS, ROLLING STONES WORK BEGINS FRAMED PIC, ASHLEY FURNITURE SIDE CHAIRS, VINTAGE MAITLAND SMITH CONSOLE TABLE, CONVERSATION PIT SEATING, ROLLING STONES STICKY FINGERS FRAMED PICS, CHEAP TRICK FRAMED PICS, ACE FREHLEY FRAMED PRINT, VAN GOGH PRINTS, VINTAGE BUTTON TUFTED GALLEY DINING SEATING, KITCHEN GADGETS AND GIZMOS, KITCHEN SMALL APPLIANCES, KITCHEN UTENSILS, POTS N PANS, CORELLE, DEPRESSION GLASS, CALIFORNIA POTTERY, LINENS, MAYTAG REFRIGERATOR, MAGNOLIA MOVIE POSTER, AMANA WASHER AND DRYER, TOOLS, GARAGE CLEANERS AND FLUIDS, PATIO FURNITURE AND MUCH MORE... PRELIMINARY INFO AND PHOTOS POSTED NOW WITH UPDATES TO COME AFTERNOON OF WEDNESDAY JUNE 10TH 2026 WE'D LOVE TO HELP WITH YOUR ESTATE/MOVING SALE, GIVE US A CALL FOR YOUR FREE ESTATE EVALUATION, YOU'RE NOT ALONE AND THIS ISN'T HOPELESS MULTIPLE OFFICES TO SERVE YOU BE SURE TO LIKE AND FOLLOW US ON FACEBOOK ALAMO AZTEK ESTATE SALES DFW, INSTAGRAM ALAMO AZTEK ESTATE SALES , TIKTOK @ALAMO AZTEK ESTATES OR SUBSCRIBE TO OUR WEBSITE WE SPECIALIZE IN HOARDER'S HOUSES, PRESTIGIOUS ESTATES & CHALLENGING SITUATIONS ALAMO AZTEK ESTATE SALES DFW 972-765-8367 DALLAS OFFICE GARLAND/RICHARDSON OFFICE 254-459-8658 ARLINGTON OFFICE WWW.ALAMOESTATESALES.COM DALLAS OFFICE GARLAND/RICHARDSON OFFICE ARLINGTON OFFICE SERVING DFW METROPLEX CITY OF DALLAS & DALLAS COUNTY, CITY OF FT WORTH, CITY ARLINGTON & TARRANT COUNTY, HEB MID CITIES, SOUTH AND EAST DALLAS CITIES OF GARLAND, RICHARDSON, MESQUITE, SUNNYVALE AND EVERYWHERE IN BETWEEN",
+      "photo_count": 113,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 68,
+      "keywords": [
+        "art",
+        "furniture",
+        "vintage",
+        "collectibles",
+        "rugs",
+        "records",
+        "tools",
+        "books"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Downsizing in North Dallas",
+      "url": "https://estatesales.org/estate-sales/tx/dallas/75248/downsizing-in-north-dallas-2443200",
+      "company": "Treasures Once More Estate Sales",
+      "street": "hidden",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75248",
+      "start": "2026-06-12T09:00-05:00",
+      "end": "2026-06-14T15:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Come join us in North Dallas for a downsizing estate sale. This sale is full of a lifetime of treasures. Mark your calendars. You won't want to miss this one! If you are an artwork enthusiast, this is the sale for you. Vinyl LP records and 45 records, cassettes and CD's A large amount of books Furniture Whirlpool 3-door 25 cu. ft. Refrigerator Kitchenware and dishes Women's clothing, shoes and purses Women's furs Women's costume jewelry Sterling silver jewelry, including retired James Avery pieces, and a small amount of gold jewelry Christmas items Tools and garage items We are also selling a white with black cloth interior, 2025 Rav 4 LE, with 527 miles. The vehicle will not be onsite for the sale, but is located close by in Plano, and we can make arrangements with the owner of the vehicle to see the car. Pictures and details updated regularly. Check back often.",
+      "photo_count": 129,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 68,
+      "keywords": [
+        "art",
+        "jewelry",
+        "furniture",
+        "silver",
+        "records",
+        "vinyl",
+        "tools",
+        "gold",
+        "sterling",
+        "books"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "!!MEGA PACK SALE IN DESOTO! COME AND SEE WHAT TREASURES YOU'LL FIND!!!",
+      "url": "https://estatesales.org/estate-sales/tx/desoto/75115/mega-pack-sale-in-desoto-2444994",
+      "company": "",
+      "street": "hidden",
+      "city": "Desoto",
+      "state": "TX",
+      "zip": "75115",
+      "start": "2026-06-12T10:00-05:00",
+      "end": "2026-06-14T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "SUMMER IS HERE AND THINGS ARE HEATING UP! AS YOU PLAN OUT YOUR VACATIONS AND PREPARE YOUR COOKOUTS, WHY NOT STOP BY OUR ESTATE SALE AND PERUSE THROUGH THE WONDERFUL TREASURES WE HAVE! FROM REPLACEMENTS FOR VALUABLE ITEMS YOU'VE LOST TO CENTERPIECES YOU WOULDN'T MIND SHOWING OFF TO YOUR FAMILY AND FRIENDS, WE HAVE JUST WHAT YOU'RE LOOKING FOR! YOU'VE ALREADY SEEN THE REST, NOW COME AND SHOP THE BEST! EVEN IF THIS ISN'T THE FIRST TIME YOU SHOPPED AT AN ESTATE SALE, WE ARE STILL THE PERFECT CHOICE! IN FACT, OUR ESTATE SALE IS PERFECT FOR:  Airbnb Hosts  Realtors & Home Stagers  Interior Designers  Collectors  Furniture Store Owners & Flippers  Business Owners  Estate Sale Enthusiasts SO COME SPEND THE WEEKEND WITH US AND YOU WILL FIND ITEMS SO PRECIOUS YOU WOULDN'T MIND BEATING THE HEAT FOR THEM! CASH ONLY!! PLEASE LOOK FOR THE GREATEST ITEMS THIS SIDE OF DALLAS COUNTY: Waterford Crystal, Fine China & Porcelain, Cameras, Knives, Fine jewelry, Vintage glassware, Rugs, Original Paintings, Fine Furniture, Ceramics, Framed mirrors, Lamps, Stoneware, Pottery, Brass & Copper accents, Antiques, Textiles, Household items, Bedding & Linens, Fashion, Footwear & Accessories, Men and Women's Clothing, Fitness equipment, Luggage, Media items, Office furniture, Formal dining, Appliances, Toys, Advertising Collectibles, Sewing machines, Lawn care, Jewelry, Tools, Pots & Planters, Seasonal items and Misc. Collectibles TONS of CDs, DVDs, LPs, Artwork, Books, Avon Fragrances. & Much More!",
+      "photo_count": 105,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 68,
+      "keywords": [
+        "art",
+        "jewelry",
+        "designer",
+        "furniture",
+        "vintage",
+        "collectibles",
+        "antiques",
+        "rugs",
+        "tools",
+        "books",
+        "fine"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "A Legacy of Home - Scott Estate Sale",
+      "url": "https://www.estatesales.net/TX/Carrollton/75006/4935891",
+      "company": "Private Listing",
+      "street": "hidden",
+      "city": "Carrollton",
+      "state": "TX",
+      "zip": "75006",
+      "start": "2026-06-11T10:00-05:00",
+      "end": "2026-06-14T14:00-05:00",
+      "type": "In-person estate sale",
+      "description": "ESTATE SALE - PRIVATE PREVIEW + PUBLIC SALE Private Sale: June 11, 2026 10 AM to 4:PM (limited spots): Schedule your private appointment here: Schedule Your Private Appointment Public Sale: Friday, June 12, 2026 - Sunday, June 14, 2026 Large estate sale featuring quality furniture, collectibles, electronics, household goods, decor and much more. The home is filled with treasures ranging from traditional furnishings and religious collectibles to audio equipment, holiday decor and practical everyday items. Featured items include b edroom furniture, dressers, nightstands , chest of drawers, chairs, curio cabinet, T V armoire , entertainment center, coffee table, end tables and patio end tables. Electronics and appliances include a r eceiver, amplifier, subwoofer, t ape player, Blu-ray player, CD player, TV, iPhone, computer monitor, portable air conditioner, microwave, cooktop, washer and dryer . Artwork including Thomas Kincaid pieces Exercise equipment includes a treadmill and recumbent exercise bike . Kitchen and dining items include serving dishes, punch bowls, silverware, cups, knives, cake platters, cookware, cookbooks and v intage silver platters, trays and serving dishes. Additional items include:  Men's and women's clothing  Perfumes and Bath & Body items  Tools, garage cabinets and organization items  Books, briefcases and office supplies  Christmas decor, wreaths, wrapping paper and gift bags  Religious items including rosaries and Christian decor  Vases, trinkets, suitcases and household decor throughout the home There is far too much to list - many additional household treasures throughout the home!",
+      "photo_count": 81,
+      "sources": [
+        "EstateSales.NET",
+        "EstateSales.org"
+      ],
+      "score": 65,
+      "keywords": [
+        "art",
+        "decor",
+        "furnishings",
+        "furniture",
+        "collectibles",
+        "silver",
+        "tools",
+        "books"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Great Grabs in Garland",
+      "url": "https://estatesales.org/estate-sales/tx/garland/75042/great-grabs-in-garland-2444378",
+      "company": "Chickadee Lane Estate and Moving Sales, LLC",
+      "street": "hidden",
+      "city": "Garland",
+      "state": "TX",
+      "zip": "75042",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Join us for this Garland sale with an eclectic mix furniture, office finds, electronics, hand tools, various ceramics and miniatures, lamps, toys, holiday decor, Kansas City Chiefs gear, kitchenware, kitchen gadgets, washer/dryer/fridge and various tools/shed finds, linens, small storage furniture pieces, vintage finds, artwork, CDs/DVDs/VHS, vinyl records, women's clothes and purses, and a king size mattress in excellent condition with an adjustable frame!",
+      "photo_count": 48,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 61,
+      "keywords": [
+        "art",
+        "decor",
+        "furniture",
+        "vintage",
+        "records",
+        "vinyl",
+        "tools"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Glorious in Garland",
+      "url": "https://estatesales.org/estate-sales/tx/garland/75043/glorious-in-garland-2444381",
+      "company": "Chickadee Lane Estate and Moving Sales, LLC",
+      "street": "hidden",
+      "city": "Garland",
+      "state": "TX",
+      "zip": "75043",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Join us for this Garland sale that boasts beautiful home decor throughout! We have unique finds and furniture, women's clothing and shoes (most new in box), purses, linens, LOTS of kitchenware, dishware and small kitchen appliances, great garage finds, golf clubs, golf shoes, LOTS of silverplate pieces, china, crystal, artwork, 1960s Mickey Mantle dishes, patio furniture, display pieces, vintage barware, a baby grand piano, lamps, books, sewing notions, holiday decor and office furniture/supplies. Come and see it all!",
+      "photo_count": 91,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 57,
+      "keywords": [
+        "art",
+        "decor",
+        "furniture",
+        "vintage",
+        "silver",
+        "books"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Antiques, Collectibles, Americana- Barn Sale- Friday & Saturday",
+      "url": "https://estatesales.org/estate-sales/tx/burleson/76028/antiques-collectibles-americana-barn-sale-2445172",
+      "company": "Texas Star Auctions",
+      "street": "3000 Collins Rd",
+      "city": "Burleson",
+      "state": "TX",
+      "zip": "76028",
+      "start": "2026-06-12T09:00-05:00",
+      "end": "2026-06-13T17:00-05:00",
+      "type": "In-person estate sale",
+      "description": "BARN SALE- ANTIQUES, FURNITURE, COLLECTIBLES, AMERICANA FRIDAY & SATURDAY 9:00 - 5:00 So many great items & even better bargains! Advertising signs, tins, clocks & more Antique & contemporary furniture Vintage Camera's Plaid - a - Plenty Holiday Items Wall Art: Mirrors, Paintings, Prints & more Toys, Vintage & newer Pocket Knives Belt Buckles Red, White & Blue Political Collectibles Yard & Patio Furniture & Decor Gladiola Bulbs 20% off items priced above $10.00. Does not include items already on sale. 50% off Selected Items",
+      "photo_count": 43,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 57,
+      "keywords": [
+        "art",
+        "decor",
+        "furniture",
+        "vintage",
+        "collectibles",
+        "antiques"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Antiques, Art, Collectibles Galore!",
+      "url": "https://www.estatesales.net/TX/Duncanville/75116/4953660",
+      "company": "Annice Antiques, Inc.",
+      "street": "hidden",
+      "city": "Duncanville",
+      "state": "TX",
+      "zip": "75116",
+      "start": "2026-06-11T08:00-05:00",
+      "end": "2026-06-14T17:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale! Duncanville, TX This house is packed! Lots of antiques, collectibles, furniture, art, unique items and curiosities. Get Ready to shop!",
+      "photo_count": 464,
+      "sources": [
+        "EstateSales.NET",
+        "EstateSales.org"
+      ],
+      "score": 56,
+      "keywords": [
+        "art",
+        "furniture",
+        "collectibles",
+        "antiques"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Massive in Mesquite",
+      "url": "https://estatesales.org/estate-sales/tx/mesquite/75181/massive-in-mesquite-2444844",
+      "company": "Chickadee Lane Estate and Moving Sales, LLC",
+      "street": "hidden",
+      "city": "Mesquite",
+      "state": "TX",
+      "zip": "75181",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Join us for this amazing sale with a LOT of everything! This home boasts beautiful furniture, small accent furniture pieces, china, glassware, dishware galore, Carnival glass, miniatures, kitchen appliances, cookware, washer/dryer/fridge/small deep freezer, books, office supplies, Fitz and Floyd pieces, holiday decor (modern and vintage), dolls of all eras, toys, electronics, antler collection, and TOOLS!!! The garage and a large shed are absolutely packed with every tool imaginable (large, small, hand tools, electric tools, vintage rusty crusties and MORE!)",
+      "photo_count": 111,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 56,
+      "keywords": [
+        "decor",
+        "furniture",
+        "vintage",
+        "tools",
+        "books"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "~Incredible Garland Estate Sale! Outstanding MCM, Collectibles, Vintage, Autographs & Much More! Info Coming Soon!",
+      "url": "https://estatesales.org/estate-sales/tx/garland/75044/incredible-garland-estate-sale-outstanding-2433592",
+      "company": "DFW ESTATE LIQUIDATORS",
+      "street": "2929 Silverdale Ln",
+      "city": "Garland",
+      "state": "TX",
+      "zip": "75044",
+      "start": "2026-06-12T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Please Read: Property under 24/7 Video Surveillance with active alarm monitoring. Valuables removed from premises daily. No pre sales. Visa, MasterCard & Discover accepted. Carry-out assistance available. Security on-site during sale hours. Armed police will be patrolling the perimeter of this property upon the release of the address. / As always, our sales are first come first serve. No sign-up sheet & no place holders. The line will form at the front door which will open at 9am sharp. You are more than welcome to arrive early. Please do not block driveways or mailboxes. Security will be watching the street. We can't wait to see everyone! ~ This is one of multiple estate sales being held this weekend simultaneously! (Other locations will be listed) Be sure to check out all of this week's estate sales as well as our *online only* Weatherford Auction Gallery **Fine Estate Auction** closing this Friday! We are pleased to announce another incredible Estate Sale by DFW Estate Liquidators! ~Please look forward to: Don't forget to check out our current *Online Only* Estate Auctions! Register, View Catalog & Bid @ http://www.weatherfordauctiong... For additional sales & online auctions go to http://www.dfwestateliquidator... ~WE ARE HIRING! FULL & PART TIME POSITIONS OPEN. (Interested persons should contact us via email @ dfwestateliquidators@gmail.com or text 682-239-1746.",
+      "photo_count": 106,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 56,
+      "keywords": [
+        "art",
+        "mcm",
+        "vintage",
+        "collectibles",
+        "fine"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Hudson Oaks Estate Sale",
+      "url": "https://estatesales.org/estate-sales/tx/weatherford/76087/hudson-oaks-estate-sale-2443619",
+      "company": "D & J Estate Sales",
+      "street": "hidden",
+      "city": "Weatherford",
+      "state": "TX",
+      "zip": "76087",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T17:00-05:00",
+      "type": "In-person estate sale",
+      "description": "4-Bedroom House; Garage and 2 Outbuildings DIY Dreamers Sale; BNSF Memorabilia (30+ yrs with BNSF) Pre-sale on Machine Tools only by Appointment. (SOLD) Hand Tools; Power Tools; Toolboxes; Truck Bed Toolbox; Woodworking Tools; Table/Router Saw; Band Saw; Grinder; Cutoff Saw; Air Compressor; Pipe Benders; Yard Tools; Troy-built Lawn Mower; 2 Edgers; Lawn Roller and Rake; Cement Mixer Living Room Couch, Love Seat, End Tables, Coffee Table, Sitting Chair, Leather Recliners, Leather Couch, Floor and Table Lamps, Hall Tree, Curved Glass Curio, Gun Cabinet (No Guns) Nice Collection of Fitzs and Floyd Patio Table & Chairs (Wrought Iron) 2 - Smart TVs (48 and 55 inch) Dining Table; China Cabinet; Tea Cart Bedroom Entertainment Centers, Trundle Bed, Vintage Sewing Machine Queen Bed, 2 Dressers with Mirrors, Chest, End Tables Women's Designer Clothes Yard Art and Plants Christmas In June",
+      "photo_count": 152,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 52,
+      "keywords": [
+        "art",
+        "designer",
+        "vintage",
+        "tools"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Downsizing Estate Ssle.",
+      "url": "https://estatesales.org/estate-sales/tx/sherman-/75090/downsizing-estate-ssle-2445310",
+      "company": "Neely Estate Sales & Auctions, LLC",
+      "street": "1200 S Willow St",
+      "city": "Sherman",
+      "state": "TX",
+      "zip": "75090",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Downsizing Estate Sale by Neely Estate Sales & Auctions, LLC Location: 1200 S Willow St; Sherman, TX 75090 Dates/Times: Thursday, June 11 @ 9am-4pm Friday, June 12 @ 9am-4pm Saturday, June 13 @ 9am-4pm Payment Options: Cash & Debit or Credit Cards Photos & Full Details: coming soon Sale Terms: All items sold AS IS, WHERE IS No refunds or exchanges Please inspect items before purchase Not responsible for accidents. Partial List; Costume Jewelry Handmade Quilts Vintage Dishes Trunks Cedar Chest Furniture Noritake China Glassware Brass Decor Kitchenware Pottery Much More",
+      "photo_count": 2,
+      "score": 50,
+      "keywords": [
+        "art",
+        "jewelry",
+        "decor",
+        "furniture",
+        "vintage"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Estate Sale in Aledo - Classic MCM, Asian, High End Furniture Rock Collection",
+      "url": "https://www.estatesales.net/TX/Aledo/76008/4945968",
+      "company": "Kitty Wade Estate Sales",
+      "street": "",
+      "city": "Aledo",
+      "state": "TX",
+      "zip": "76008",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T15:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 46,
+      "keywords": [
+        "furniture",
+        "mcm",
+        "asian",
+        "high end"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Decorator's Dream!",
+      "url": "https://estatesales.org/estate-sales/tx/royse-city/75189/decorators-dream-2444677",
+      "company": "Heaven Sent Estate Sales",
+      "street": "hidden",
+      "city": "Royse City",
+      "state": "TX",
+      "zip": "75189",
+      "start": "2026-06-11T12:00-05:00",
+      "end": "2026-06-13T15:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Walking into this lovely home makes you think you might be in Hobby Lobby. or The Home Goods Store. There's so many beautiful items here plus some really nice men's and women's clothing, swing set, outside furniture, lots of fabric crafting supplies, and so much more! If you're into square dancing, then you will love all the fun clothing items here.",
+      "photo_count": 139,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 44,
+      "keywords": [
+        "decor",
+        "furniture"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "~Incredible Dallas Estate Sale! More info coming soon!",
+      "url": "https://estatesales.org/estate-sales/tx/dallas/75252/incredible-dallas-estate-sale-more-2433157",
+      "company": "DFW ESTATE LIQUIDATORS",
+      "street": "5804 Preston Fairways Dr",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75252",
+      "start": "2026-06-12T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Please Read: Property under 24/7 Video Surveillance with active alarm monitoring. Valuables removed from premises daily. No pre sales. Visa, MasterCard & Discover accepted. Carry-out assistance available. Security on-site during sale hours. Armed police will be patrolling the perimeter of this property upon the release of the address. / As always, our sales are first come first serve. No sign-up sheet & no place holders. The line will form at the front door which will open at 9am sharp. You are more than welcome to arrive early. Please do not block driveways or mailboxes. Security will be watching the street. We can't wait to see everyone! ~ This is one of multiple estate sales being held this weekend simultaneously! (Additional locations will be listed) Be sure to check out all of this week's estate sales as well as our *online only* Weatherford Auction Gallery **Fine Estate Auction** closing this Friday! We are pleased to announce another incredible Estate Sale by DFW Estate Liquidators! ~Please look forward to: Pics & info coming soon! Don't forget to check out our current *Online Only* Estate Auctions! Register, View Catalog & Bid @ http://www.weatherfordauctiong... For additional sales & online auctions go to http://www.dfwestateliquidator... ~WE ARE HIRING! FULL & PART TIME POSITIONS OPEN. (Interested persons should contact us via email @ dfwestateliquidators@gmail.com or text 682-239-1746.",
+      "photo_count": 185,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 44,
+      "keywords": [
+        "art",
+        "fine"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "MEGA PACKED Arlington Sale | Thousands of Vintage Treasures, Antiques & Collectibles!",
+      "url": "https://www.estatesales.net/TX/Arlington/76016/4901127",
+      "company": "Lori's Estate Sales",
+      "street": "",
+      "city": "Arlington",
+      "state": "TX",
+      "zip": "76016",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-14T13:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 42,
+      "keywords": [
+        "vintage",
+        "collectibles",
+        "antiques"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "~Incredible Plano Estate Sale! More info coming soon!",
+      "url": "https://estatesales.org/estate-sales/tx/plano/75025/incredible-plano-estate-sale-more-2437029",
+      "company": "DFW ESTATE LIQUIDATORS",
+      "street": "1609 Endicott Dr",
+      "city": "Plano",
+      "state": "TX",
+      "zip": "75025",
+      "start": "2026-06-12T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Please Read: Property under 24/7 Video Surveillance with active alarm monitoring. Valuables removed from premises daily. No pre sales. Visa, MasterCard & Discover accepted. Carry-out assistance available. Security on-site during sale hours. Armed police will be patrolling the perimeter of this property upon the release of the address. / As always, our sales are first come first serve. No sign-up sheet & no place holders. The line will form at the front door which will open at 9am sharp. You are more than welcome to arrive early. Please do not block driveways or mailboxes. Security will be watching the street. We can't wait to see everyone! ~This is one of multiple estate sales being held this weekend simultaneously! (Other sales will be listed) Be sure to check out all of this week's estate sales as well as our *online only* Weatherford Auction Gallery **Fine Estate Auction** closing this Friday! We are pleased to announce another incredible Estate Sale by DFW Estate Liquidators! ~Please look forward to: Don't forget to check out our current *Online Only* Estate Auctions! Register, View Catalog & Bid @ http://www.weatherfordauctiong... For additional sales & online auctions go to http://www.dfwestateliquidator... ~WE ARE HIRING! FULL & PART TIME POSITIONS OPEN. (Interested persons should contact us via email @ dfwestateliquidators@gmail.com or text 682-239-1746.",
+      "photo_count": 1,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 38,
+      "keywords": [
+        "art",
+        "fine"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "713 W Pecan St. Celina Tx Online Real Estate Auction Ending Jun 15 at 7pm",
+      "url": "https://estatesales.org/estate-sales/tx/celina/75009/713-w-pecan-st-celina-2442517",
+      "company": "Why Not Marketplace",
+      "street": "713 W Pecan St",
+      "city": "Celina",
+      "state": "TX",
+      "zip": "75009",
+      "start": "2026-06-02T09:20-05:00",
+      "end": "2026-06-15T19:00-05:00",
+      "type": "Online auction",
+      "description": "Online Real Estate Auction - No Reserve Opening Bid: $239,000 Address: 713 W. Pecan St, Celina, TX 75009 This charming 3 bedroom, 2 bathroom single-family home is located in the heart of Downtown Celina, just a short walk to the historic Town Square. Situated inside the highly desirable Bricks District of Downtown Celina TX.",
+      "photo_count": 16,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 36,
+      "keywords": [
+        "art"
+      ],
+      "zip_priority": "C",
+      "zip_rank": 26,
+      "hot_area": "Celina"
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "MON WKLY #1 NICE SAL FURNITURE COINS MID CENTURY 1909-S VDB+",
+      "url": "https://estatesales.org/estate-sales/tx/addison/75001/mon-wkly-1-nice-sal-2443913",
+      "company": "A - Z Estate Sales of North Texas & ADDISON TX TYLER GRACE AUCTIONS AND APPRAISALS",
+      "street": "15301 Midway Rd",
+      "city": "Addison",
+      "state": "TX",
+      "zip": "75001",
+      "start": "2026-06-01T20:59-05:00",
+      "end": "2026-06-16T19:00-05:00",
+      "type": "Online auction",
+      "description": "https://tylergraceauctions.hib...",
+      "photo_count": 401,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 34,
+      "keywords": [
+        "furniture",
+        "mid century",
+        "coins"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Decorator's Choice Estate Sale",
+      "url": "https://www.estatesales.net/TX/Weatherford/76087/4950369",
+      "company": "Homestead Kate's",
+      "street": "",
+      "city": "Weatherford",
+      "state": "TX",
+      "zip": "76087",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 34,
+      "keywords": [
+        "decor"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Huge Estate Sale - 70 years of collecting - 90% vintage",
+      "url": "https://www.estatesales.net/TX/White Settlement/76108/4942125",
+      "company": "Private Listing",
+      "street": "",
+      "city": "White Settlement",
+      "state": "TX",
+      "zip": "76108",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-14T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 34,
+      "keywords": [
+        "vintage"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "TUE WKLY #2 COIN STAMPS SPORTS CARDS SOME COLLECTIBLES ART",
+      "url": "https://estatesales.org/estate-sales/tx/addison/75001/tue-wkly-2-coin-stamps-2443916",
+      "company": "A - Z Estate Sales of North Texas & ADDISON TX TYLER GRACE AUCTIONS AND APPRAISALS",
+      "street": "15301 Midway Rd",
+      "city": "Addison",
+      "state": "TX",
+      "zip": "75001",
+      "start": "2026-06-01T21:08-05:00",
+      "end": "2026-06-16T19:00-05:00",
+      "type": "Online auction",
+      "description": "https://tylergraceauctions.hib...",
+      "photo_count": 407,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 30,
+      "keywords": [
+        "art",
+        "collectibles"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Brilliant Sale on Bells Chapel Rd",
+      "url": "https://www.estatesales.net/TX/Waxahachie/75165/4951470",
+      "company": "Southern Revival Estate Sales & Marketplace",
+      "street": "971 Bells Chapel Rd",
+      "city": "Waxahachie",
+      "state": "TX",
+      "zip": "75165",
+      "start": "2026-06-10T15:00-05:00",
+      "end": "2026-06-13T15:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 30,
+      "keywords": [],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Timeless Treasures Rare Finds and Heirlooms Estate Sale",
+      "url": "https://www.estatesales.net/TX/Kaufman/75142/4933098",
+      "company": "Amplify Sales",
+      "street": "",
+      "city": "Kaufman",
+      "state": "TX",
+      "zip": "75142",
+      "start": "2026-06-11T08:00-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 30,
+      "keywords": [],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Unbeatable Deals by Dayspring: Farmers Branch",
+      "url": "https://www.estatesales.net/TX/Farmers Branch/75234/4921467",
+      "company": "Dayspring Estate Sales",
+      "street": "",
+      "city": "Farmers Branch",
+      "state": "TX",
+      "zip": "75234",
+      "start": "2026-06-11T08:30-05:00",
+      "end": "2026-06-13T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 30,
+      "keywords": [],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Bits and Pieces in Keller: Texas Treasures & Christmas Cheer",
+      "url": "https://www.estatesales.net/TX/Keller/76248/4953942",
+      "company": "Bits And Pieces Estate Sales",
+      "street": "",
+      "city": "Keller",
+      "state": "TX",
+      "zip": "76248",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T15:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 30,
+      "keywords": [],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Double the Deals in Denton!",
+      "url": "https://www.estatesales.net/TX/Denton/76205/4945290",
+      "company": "HammerDown Estate Sales",
+      "street": "",
+      "city": "Denton",
+      "state": "TX",
+      "zip": "76205",
+      "start": "2026-06-11T09:00-05:00",
+      "end": "2026-06-13T15:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 30,
+      "keywords": [],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Estate of BELOVED LIFETIME DENTON COACH & TEACHER is PACKED with 47 years of TREASURES !!!",
+      "url": "https://www.estatesales.net/TX/Denton/76201/4931010",
+      "company": "J & S Estate Sales",
+      "street": "",
+      "city": "Denton",
+      "state": "TX",
+      "zip": "76201",
+      "start": "2026-06-11T10:00-05:00",
+      "end": "2026-06-13T14:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 30,
+      "keywords": [],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.NET",
+      "title": "Fabulous packed Hurst Estate Sale",
+      "url": "https://www.estatesales.net/TX/Hurst/76054/4943193",
+      "company": "Kitchens To Closets Estate Sales",
+      "street": "E PleasantView Dr and Norwood Dr",
+      "city": "Hurst",
+      "state": "TX",
+      "zip": "76054",
+      "start": "2026-06-11T10:00-05:00",
+      "end": "2026-06-14T16:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Estate Sale",
+      "photo_count": 1,
+      "score": 30,
+      "keywords": [],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "See you in Fate - by Brookwood Estate Sales",
+      "url": "https://estatesales.org/estate-sales/tx/rockwall/75087/see-you-in-fate-by-2444822",
+      "company": "Brookwood Estate Sales",
+      "street": "hidden",
+      "city": "Rockwall",
+      "state": "TX",
+      "zip": "75087",
+      "start": "2026-06-12T09:30-05:00",
+      "end": "2026-06-13T15:00-05:00",
+      "type": "In-person estate sale",
+      "description": "Fate here we come! Brookwood will be hosting another fabulous estate sale in Fate, TX. (address may also show Rockwall). Come by to pick up your next new treasure. It's here waiting on you! See you June 12th and 13th!",
+      "photo_count": 1,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 30,
+      "keywords": [],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Coins & Jewelry plus auction",
+      "url": "https://estatesales.org/estate-sales/tx/mansfield/76063/coins-jewelry-plus-auction-2445138",
+      "company": "Auction Spear LLC",
+      "street": "https://www.auctionspear.com/auction/1647",
+      "city": "Mansfield",
+      "state": "TX",
+      "zip": "76063",
+      "start": "2026-06-08T11:50-05:00",
+      "end": "2026-06-22T19:00-05:00",
+      "type": "Online auction",
+      "description": "Bidstar Auctions presents Online exclusively at www.AuctionSpear.com Exclusive Deals at this incredible Online Auction - Hurry! Silver coins jewelry Clothing & Accessories Drones & Electronics Foreign currency Free to register & bid . Don't Wait, Place Your Bids Now Before It's Too Late! Auction Closing Soon : Monday June 22nd - 7:00 p.m.  Location: Mansfield, TX 76063  Become a seller on Auction Spear visit www.AuctionSpear.com for more info",
+      "photo_count": 26,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 24,
+      "keywords": [
+        "jewelry",
+        "silver",
+        "coins"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    },
+    {
+      "source": "EstateSales.org",
+      "title": "Business Inventory Liquidation and a Lot more",
+      "url": "https://estatesales.org/estate-sales/tx/arlington/76014/business-inventory-liquidation-and-a-2444873",
+      "company": "Auction Spear LLC",
+      "street": "https://www.auctionspear.com/auction/1644",
+      "city": "Arlington",
+      "state": "TX",
+      "zip": "76014",
+      "start": "2026-06-06T10:20-05:00",
+      "end": "2026-06-18T19:00-05:00",
+      "type": "Online auction",
+      "description": "AS Online Auctions presents Online exclusively at www.AuctionSpear.com Rare Deals at this incredible Online Auction - Hurry! 2013 Ford Escape Many NEW items! Including Yeti, Nike and others LG 43\" smart TV Firearms, Ammunition & knives Gaming gear, Electronics & office supplies  FREE to Register & Bid Auction Closing Soon : Thursday June 18th - 7:00 p.m.  Location: Arlington, TX 76014  Start your own online auction business today  Visit www. AuctionSpear.com to get started NOW",
+      "photo_count": 55,
+      "sources": [
+        "EstateSales.org"
+      ],
+      "score": 19,
+      "keywords": [
+        "art"
+      ],
+      "zip_priority": "Outside",
+      "zip_rank": 999,
+      "hot_area": ""
+    }
+  ]
+}

@@ -82,6 +82,41 @@
       margin-top: 14px;
     }
 
+    .report-link {
+      display: grid;
+      gap: 3px;
+      margin-top: 14px;
+      padding: 10px 11px;
+      color: var(--ink);
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--a);
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .report-link:hover {
+      background: #f6fafb;
+    }
+
+    .report-kicker {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .report-title {
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .report-meta {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
     .chip {
       display: inline-flex;
       align-items: center;
@@ -159,6 +194,99 @@
       margin-top: -2px;
     }
 
+    .sale-targets {
+      padding: 12px 12px 2px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfdfd;
+    }
+
+    .sale-heading {
+      margin: 0 8px 8px;
+      color: #41545d;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .sale-card {
+      display: block;
+      margin: 0 0 8px;
+      padding: 10px 8px;
+      color: var(--ink);
+      text-decoration: none;
+      border: 1px solid #edf2f4;
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .sale-card:hover {
+      background: #f6fafb;
+      border-color: #d5e1e5;
+    }
+
+    .sale-top {
+      display: grid;
+      grid-template-columns: 38px minmax(0, 1fr);
+      gap: 9px;
+      align-items: start;
+    }
+
+    .sale-score {
+      display: grid;
+      place-items: center;
+      height: 28px;
+      border-radius: 6px;
+      color: #fff;
+      background: var(--a);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .sale-name {
+      display: -webkit-box;
+      overflow: hidden;
+      color: #1f2b31;
+      font-size: 12px;
+      font-weight: 850;
+      line-height: 1.25;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+
+    .sale-detail,
+    .sale-why {
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.35;
+    }
+
+    .sale-detail {
+      margin-top: 4px;
+    }
+
+    .sale-why {
+      grid-column: 2;
+      margin-top: 6px;
+    }
+
+    .sale-empty {
+      margin: 0 8px 10px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .sale-more {
+      display: inline-flex;
+      margin: 0 8px 10px;
+      color: #14637a;
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
     .badge {
       font-size: 11px;
       font-weight: 800;
@@ -229,7 +357,18 @@
           <span class="chip"><span class="dot b"></span>B: strong secondary</span>
           <span class="chip"><span class="dot c"></span>C: watchlist</span>
         </div>
+        <a class="report-link" href="./reports/latest.html">
+          <span class="report-kicker">Latest weekend plan</span>
+          <span class="report-title" id="latestReportTitle">June 13-14, 2026</span>
+          <span class="report-meta" id="latestReportMeta">37 matched sales with a route shortlist and source cross-checks.</span>
+        </a>
       </header>
+      <section class="sale-targets" aria-label="Top weekend estate sale targets">
+        <h2 class="sale-heading">Top weekend targets</h2>
+        <div id="saleTargets">
+          <p class="sale-empty">Loading latest sale list...</p>
+        </div>
+      </section>
       <div class="list" id="zipList"></div>
     </aside>
     <main id="map" aria-label="Map of DFW estate sale target ZIP codes"></main>
@@ -319,6 +458,86 @@
     if ("ResizeObserver" in window) {
       new ResizeObserver(fitMap).observe(mapElement);
     }
+
+    const formatReportDate = (dateText) => {
+      const date = new Date(`${dateText}T12:00:00`);
+      return date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+    };
+
+    const formatSaleDate = (isoText) => {
+      if (!isoText) return "";
+      const date = new Date(isoText);
+      return date.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+    };
+
+    const reasonForSale = (sale) => {
+      const bits = [];
+      if (sale.zip_priority && sale.zip_priority !== "Outside") bits.push(`${sale.zip_priority} ZIP`);
+      if (Array.isArray(sale.keywords) && sale.keywords.length) bits.push(sale.keywords.slice(0, 4).join(", "));
+      if (sale.photo_count) bits.push(`${sale.photo_count} ${sale.photo_count === 1 ? "photo" : "photos"}`);
+      return bits.join("; ") || "General DFW candidate";
+    };
+
+    const renderSaleTargets = (sales) => {
+      const container = document.getElementById("saleTargets");
+      const topSales = Array.isArray(sales) ? sales.slice(0, 5) : [];
+      if (!topSales.length) {
+        container.innerHTML = '<p class="sale-empty">No matching sales found in the latest report.</p>';
+        return;
+      }
+      container.innerHTML = "";
+      topSales.forEach((sale) => {
+        const card = document.createElement("a");
+        card.className = "sale-card";
+        card.href = sale.url || "./reports/latest.html";
+        card.target = "_blank";
+        card.rel = "noopener";
+        const cityZip = [sale.city, sale.zip].filter(Boolean).join(", ");
+        const dates = [formatSaleDate(sale.start), formatSaleDate(sale.end)].filter(Boolean);
+        const dateText = dates.length === 2 && dates[0] !== dates[1] ? `${dates[0]} to ${dates[1]}` : dates[0] || "Dates pending";
+        const top = document.createElement("div");
+        top.className = "sale-top";
+        const score = document.createElement("span");
+        score.className = "sale-score";
+        score.textContent = sale.score || "";
+        const copy = document.createElement("span");
+        const name = document.createElement("span");
+        name.className = "sale-name";
+        name.textContent = sale.title || "Untitled sale";
+        const detail = document.createElement("span");
+        detail.className = "sale-detail";
+        detail.textContent = `${cityZip || "DFW"} | ${dateText}`;
+        const why = document.createElement("span");
+        why.className = "sale-why";
+        why.textContent = reasonForSale(sale);
+        copy.append(name, detail);
+        top.append(score, copy, why);
+        card.append(top);
+        container.appendChild(card);
+      });
+      const more = document.createElement("a");
+      more.className = "sale-more";
+      more.href = "./reports/latest.html";
+      more.textContent = "View full ranked list";
+      container.appendChild(more);
+    };
+
+    fetch("./data/reports/latest.json", { cache: "no-store" })
+      .then((response) => response.ok ? response.json() : null)
+      .then((report) => {
+        if (!report || !report.date_range) return;
+        const start = report.date_range.start;
+        const end = report.date_range.end;
+        const year = new Date(`${end}T12:00:00`).getFullYear();
+        const count = Array.isArray(report.sales) ? report.sales.length : 0;
+        const plural = count === 1 ? "sale" : "sales";
+        document.getElementById("latestReportTitle").textContent = `${formatReportDate(start)}-${formatReportDate(end)}, ${year}`;
+        document.getElementById("latestReportMeta").textContent = `${count} matched ${plural} with a route shortlist and source cross-checks.`;
+        renderSaleTargets(report.sales);
+      })
+      .catch(() => {
+        document.getElementById("saleTargets").innerHTML = '<p class="sale-empty">Open the latest weekend plan for the sale list.</p>';
+      });
 
     const list = document.getElementById("zipList");
     zips.forEach((item) => {
