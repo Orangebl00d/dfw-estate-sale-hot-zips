@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DFW Estate Sale Hot ZIP Codes</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIINfQkHn0liwNnI2x9f3M5bH6xMDaOWPdw="
+    crossorigin=""
+  />
+  <style>
+    :root {
+      --ink: #172026;
+      --muted: #60717c;
+      --line: #d8e1e5;
+      --panel: #ffffff;
+      --bg: #f3f7f8;
+      --a: #c7352d;
+      --b: #de8f24;
+      --c: #267d91;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+    }
+
+    .shell {
+      display: grid;
+      grid-template-columns: minmax(360px, 440px) 1fr;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    aside {
+      overflow: auto;
+      border-right: 1px solid var(--line);
+      background: var(--panel);
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      padding: 20px 20px 14px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(8px);
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: 22px;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .legend {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      height: 26px;
+      padding: 0 8px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      font-size: 12px;
+      color: #27343a;
+      background: #fff;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .dot.a { background: var(--a); }
+    .dot.b { background: var(--b); }
+    .dot.c { background: var(--c); }
+
+    .list {
+      padding: 10px 12px 20px;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 36px 1fr auto;
+      gap: 10px;
+      align-items: start;
+      padding: 12px 8px;
+      border-bottom: 1px solid #edf2f4;
+      cursor: pointer;
+    }
+
+    .row:hover {
+      background: #f6fafb;
+    }
+
+    .rank {
+      display: grid;
+      place-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .rank.a { background: var(--a); }
+    .rank.b { background: var(--b); }
+    .rank.c { background: var(--c); }
+
+    .zipline {
+      font-size: 14px;
+      font-weight: 800;
+      margin-bottom: 2px;
+    }
+
+    .area {
+      font-size: 13px;
+      line-height: 1.28;
+      color: #2b3a40;
+    }
+
+    .note {
+      grid-column: 2 / 4;
+      font-size: 12px;
+      line-height: 1.35;
+      color: var(--muted);
+      margin-top: -2px;
+    }
+
+    .badge {
+      font-size: 11px;
+      font-weight: 800;
+      color: #fff;
+      border-radius: 5px;
+      padding: 4px 6px;
+      line-height: 1;
+    }
+
+    .badge.a { background: var(--a); }
+    .badge.b { background: var(--b); }
+    .badge.c { background: var(--c); }
+
+    #map {
+      width: 100%;
+      height: 100vh;
+    }
+
+    .leaflet-popup-content {
+      margin: 12px 14px;
+      min-width: 220px;
+    }
+
+    .popup-title {
+      font-weight: 800;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .popup-note {
+      color: #52656f;
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    @media (max-width: 820px) {
+      .shell {
+        grid-template-columns: 1fr;
+        grid-template-rows: 48vh 52vh;
+      }
+
+      aside {
+        grid-row: 2;
+        border-right: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      #map {
+        height: 48vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <header>
+        <h1>DFW Estate Sale Hot ZIP Codes</h1>
+        <p class="sub">Ranked for high-end home density plus likely estate-sale yield. Pins use approximate ZIP centroids.</p>
+        <div class="legend" aria-label="Priority legend">
+          <span class="chip"><span class="dot a"></span>A: hit first</span>
+          <span class="chip"><span class="dot b"></span>B: strong secondary</span>
+          <span class="chip"><span class="dot c"></span>C: watchlist</span>
+        </div>
+      </header>
+      <div class="list" id="zipList"></div>
+    </aside>
+    <main id="map" aria-label="Map of DFW estate sale target ZIP codes"></main>
+  </div>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script>
+    const zips = [
+      { rank: 1, zip: "75205", area: "Highland Park / Park Cities", priority: "A", lat: 32.8260, lng: -96.7843, note: "Best first pass. Old-money homes, art, jewelry, designer furniture, and high-end decor." },
+      { rank: 2, zip: "75225", area: "University Park / Preston Center", priority: "A", lat: 32.8628, lng: -96.7918, note: "Palatial homes and very high incomes. Fewer sales, but quality can be excellent." },
+      { rank: 3, zip: "75230", area: "Preston Hollow", priority: "A", lat: 32.8999, lng: -96.7897, note: "Large lots, older wealth, and strong furniture, art, rugs, and silver potential." },
+      { rank: 4, zip: "75209", area: "Bluffview / Devonshire / Greenway Parks", priority: "A", lat: 32.8456, lng: -96.8260, note: "Established luxury near Love Field. Good odds for design-heavy estate contents." },
+      { rank: 5, zip: "75229", area: "Preston Hollow west / North Dallas", priority: "A", lat: 32.8958, lng: -96.8588, note: "Mixed ZIP, but the estate pockets are very strong. Worth watching closely." },
+      { rank: 6, zip: "76107", area: "Rivercrest / Westover Hills / Cultural District", priority: "A", lat: 32.7392, lng: -97.3852, note: "Fort Worth old wealth and historic estates. One of the best non-Dallas targets." },
+      { rank: 7, zip: "76092", area: "Southlake", priority: "A", lat: 32.9485, lng: -97.1524, note: "Very affluent large-home suburb. More modern luxury, less old-estate density." },
+      { rank: 8, zip: "76262", area: "Westlake / Trophy Club / Roanoke", priority: "A", lat: 33.0211, lng: -97.2127, note: "Westlake estates and executive homes. Sales are less frequent, but upside is high." },
+      { rank: 9, zip: "76034", area: "Colleyville", priority: "B", lat: 32.8872, lng: -97.1460, note: "Established luxury suburb between Dallas and Fort Worth. Good broad-sweep target." },
+      { rank: 10, zip: "75214", area: "Lakewood", priority: "B", lat: 32.8248, lng: -96.7498, note: "Older high-value homes near White Rock. Strong for furniture, books, art, and vintage." },
+      { rank: 11, zip: "75220", area: "Northwest Dallas / Bluffview adjacent", priority: "B", lat: 32.8681, lng: -96.8622, note: "Established homes and high-value pockets. Worth pairing with 75209 and 75229." },
+      { rank: 12, zip: "76109", area: "Tanglewood / Colonial / TCU", priority: "B", lat: 32.7002, lng: -97.3789, note: "Fort Worth high-value ZIP with older households and strong household-goods potential." },
+      { rank: 13, zip: "75093", area: "West Plano / Willow Bend", priority: "B", lat: 33.0299, lng: -96.7889, note: "Established affluent homes. Better estate-sale odds than many newer luxury suburbs." },
+      { rank: 14, zip: "75022", area: "Flower Mound", priority: "B", lat: 33.0268, lng: -97.1193, note: "Large homes, lake/acreage pockets, and strong family wealth." },
+      { rank: 15, zip: "75034", area: "West Frisco / Starwood / Stonebriar", priority: "B", lat: 33.1499, lng: -96.8241, note: "High-end new wealth. Watch for designer furniture, sports gear, and luxury household goods." },
+      { rank: 16, zip: "75078", area: "Prosper", priority: "B", lat: 33.2362, lng: -96.7954, note: "Very high-income growth market. More modern contents, but worth tracking." },
+      { rank: 17, zip: "76226", area: "Argyle / Bartonville / Lantana", priority: "B", lat: 33.1062, lng: -97.1600, note: "Acreage and estate-home pockets. Strong for outdoor, garage, equestrian, and household goods." },
+      { rank: 18, zip: "75208", area: "Kessler Park / Winnetka Heights / Bishop Arts", priority: "B", lat: 32.7492, lng: -96.8389, note: "Historic homes and design-minded owners. More vintage and MCM than pure luxury." },
+      { rank: 19, zip: "75019", area: "Coppell", priority: "B", lat: 32.9673, lng: -96.9805, note: "Established high-income suburb. Solid household-goods target." },
+      { rank: 20, zip: "75039", area: "Las Colinas / Irving", priority: "B", lat: 32.8697, lng: -96.9389, note: "Executive homes and condos. Good for high-end contents, but screen sale photos closely." },
+      { rank: 21, zip: "76132", area: "Mira Vista / Southwest Fort Worth", priority: "C", lat: 32.6665, lng: -97.4157, note: "Luxury gated pockets. More modern, lower vintage odds, still worth monitoring." },
+      { rank: 22, zip: "75024", area: "West Plano / Legacy", priority: "C", lat: 33.0752, lng: -96.7843, note: "Affluent corporate households. Watch for moving and downsizing sales." },
+      { rank: 23, zip: "75218", area: "Casa Linda / Forest Hills / White Rock", priority: "C", lat: 32.8441, lng: -96.6976, note: "Older East Dallas pockets. Not all luxury, but can produce great vintage finds." },
+      { rank: 24, zip: "75238", area: "Lake Highlands", priority: "C", lat: 32.8753, lng: -96.7103, note: "High-value established pockets. More mixed, but worth a weekly scan." },
+      { rank: 25, zip: "75033", area: "Northwest Frisco", priority: "C", lat: 33.1645, lng: -96.8613, note: "High-income growth ZIP. Newer homes mean lower estate-sale maturity." },
+      { rank: 26, zip: "75009", area: "Celina", priority: "C", lat: 33.3229, lng: -96.7841, note: "Wealth is growing fast. Watch for large-home liquidation and moving sales." },
+      { rank: 27, zip: "75013", area: "Allen", priority: "C", lat: 33.1094, lng: -96.6972, note: "Strong incomes, but generally newer family households. Screen before driving." }
+    ];
+
+    const colors = { A: "#c7352d", B: "#de8f24", C: "#267d91" };
+    const map = L.map("map", { scrollWheelZoom: true }).setView([32.93, -96.97], 9);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+    const markerByRank = new Map();
+    const group = L.featureGroup().addTo(map);
+
+    zips.forEach((item) => {
+      const marker = L.circleMarker([item.lat, item.lng], {
+        radius: item.priority === "A" ? 11 : item.priority === "B" ? 9 : 8,
+        color: "#ffffff",
+        weight: 2,
+        fillColor: colors[item.priority],
+        fillOpacity: 0.95
+      }).bindTooltip(`${item.rank}. ${item.zip}`, {
+        permanent: true,
+        direction: "top",
+        className: "zip-tooltip",
+        offset: [0, -8]
+      }).bindPopup(`
+        <div class="popup-title">${item.rank}. ${item.zip} - ${item.area}</div>
+        <div class="popup-note"><strong>Priority ${item.priority}</strong>: ${item.note}</div>
+      `);
+
+      marker.addTo(group);
+      markerByRank.set(item.rank, marker);
+    });
+
+    map.fitBounds(group.getBounds().pad(0.12));
+
+    const list = document.getElementById("zipList");
+    zips.forEach((item) => {
+      const row = document.createElement("div");
+      row.className = "row";
+      row.innerHTML = `
+        <div class="rank ${item.priority.toLowerCase()}">${item.rank}</div>
+        <div>
+          <div class="zipline">${item.zip}</div>
+          <div class="area">${item.area}</div>
+        </div>
+        <div class="badge ${item.priority.toLowerCase()}">${item.priority}</div>
+        <div class="note">${item.note}</div>
+      `;
+      row.addEventListener("click", () => {
+        const marker = markerByRank.get(item.rank);
+        map.setView(marker.getLatLng(), 12, { animate: true });
+        marker.openPopup();
+      });
+      list.appendChild(row);
+    });
+  </script>
+</body>
+</html>
